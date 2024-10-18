@@ -1,8 +1,3 @@
-# Hexaware AI Skill Navigator
-
-![Hexaware AI Skill Navigator](https://img.shields.io/badge/version-0.1-blue.svg)
-
-## Team: Square_Velammal_Engg
 
 Welcome to the Hexaware AI Skill Navigator, a powerful platform designed to help users chart their learning journeys, enhance their skills, and achieve their career goals through AI-driven recommendations and gamified learning experiences.
 
@@ -76,13 +71,6 @@ To get started with the project locally:
 - Enhance the gamification features with more interactive elements.
 - Scale the application to support more users and additional features.
 
-## Team Members
-
-
-| ![Contributor 1](https://via.placeholder.com/150?text=No+User+Image) | ![Contributor 2](https://via.placeholder.com/150?text=No+User+Image) | ![Contributor 3](https://via.placeholder.com/150?text=No+User+Image) |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| **[Bala Magesh Kumar S](https://github.com/Bala-Magesh)**       | **[Arunvel R](https://github.com/Arunvel975)**       | **[Yogeshwaran K]()**       |
-| AI Developer                                                    | UI/UX Designer                                       | Documentation and Testing   |
 
 
 ## License
