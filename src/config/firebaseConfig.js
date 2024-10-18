@@ -4,13 +4,13 @@ import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_APP_FIREBASE_API,
-    authDomain: import.meta.env.VITE_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_APP_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_APP_FIREBASE_APP_ID,
-    measurementId: import.meta.env.VITE_APP_FIREBASE_MEASUREMENT_ID,
+    apiKey: "AIzaSyAJXBS7upL472MmKR8M8c02D9fOl_J985s",
+    authDomain: "skillnav-f48a3.firebaseapp.com",
+    projectId: "skillnav-f48a3",
+    storageBucket: "skillnav-f48a3.appspot.com",
+    messagingSenderId: "128901735703",
+    appId: "1:128901735703:web:6d687803761e5d20b00352",
+    measurementId: "G-G3V9GWPDMZ",
 };
 
 const app = initializeApp(firebaseConfig);
