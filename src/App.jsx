@@ -96,12 +96,12 @@ const App = () => {
     return (
         <Router>
             <div className="flex h-screen bg-gradient-to-br from-gray-300 to-slate-300">
-                {!isAuthenticated && userRole && <SideBar role={userRole} />}
+                {isAuthenticated && userRole && <SideBar role={userRole} />}
                 <MainWrapper>
-                    {!isAuthenticated && userRole === 'user' && <ToastContainer />}
+                    {isAuthenticated && userRole === 'user' && <ToastContainer />}
                     <Routes>
                         <Route path="/" element={<Auth setIsAuthenticated={setIsAuthenticated} setUserRole={setUserRole} />} />
-                        {!isAuthenticated && userRole === 'user' && (
+                        {isAuthenticated && userRole === 'user' && (
                             <>
                                 <Route path="/user" element={<UserDashboard />} />
                                 <Route path="/user/all-courses" element={<AvailableCourses />} />
@@ -114,7 +114,7 @@ const App = () => {
                                 <Route path="/user/quiz" element={<Quiz />} />
                             </>
                         )}
-                        {!isAuthenticated && userRole === 'admin' && (
+                        {isAuthenticated && userRole === 'admin' && (
                             <>
                                 <Route path="/admin" element={<AdminDashboard />} />
                                 <Route path="/admin/all-courses" element={<AllCourses />} />
