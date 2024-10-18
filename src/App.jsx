@@ -21,7 +21,7 @@ import { ClipLoader } from 'react-spinners';
 
 const App = () => {
     const [userRole, setUserRole] = useState(null);
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [isAuthenticated, setIsAuthenticated] = useState(true);
     const [loading, setLoading] = useState(true);
 
     const listenForNotifications = (uid) => {
