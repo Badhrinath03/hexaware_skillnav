@@ -4,13 +4,7 @@ import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAJXBS7upL472MmKR8M8c02D9fOl_J985s",
-    authDomain: "skillnav-f48a3.firebaseapp.com",
-    projectId: "skillnav-f48a3",
-    storageBucket: "skillnav-f48a3.appspot.com",
-    messagingSenderId: "128901735703",
-    appId: "1:128901735703:web:6d687803761e5d20b00352",
-    measurementId: "G-G3V9GWPDMZ",
+  
 };
 
 const app = initializeApp(firebaseConfig);
