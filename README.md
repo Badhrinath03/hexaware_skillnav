@@ -25,28 +25,10 @@ Frontend: HTML, CSS, JavaScript, React.js
 Backend: Firebase Authentication, Firestore, Firebase Storage
 AI Models: Learning Path Recommendations, Sentiment Analysis, Feedback Analysis
 Installation
-To set up the project locally:
 
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/Square_Velammal_Engg/hexaware-ai-skill-navigator.git
-cd hexaware-ai-skill-navigator
-Install dependencies:
+Usage:
 
-bash
-Copy code
-npm install
-Configure Firebase:
-
-Add your Firebase configuration in src/firebaseConfig.js.
-Run the application:
-
-bash
-Copy code
-npm start
-Usage
 Login: Users can sign in with their Google or GitHub accounts.
 Profile Setup: Candidates can upload certificates and update their profiles.
 Learning Path: Explore AI-recommended learning paths tailored to your profile.
